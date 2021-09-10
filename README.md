@@ -1,1 +1,1 @@
-# zsk
+# ProgramowanieObiektowe
