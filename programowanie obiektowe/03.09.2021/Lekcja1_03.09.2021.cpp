@@ -19,7 +19,8 @@ int main(){
 	//cout << janusz.name;
 	cout << "Imie i nazwisko: " << janusz.name << " " << janusz.surname << "\n";
 	cout << "Wiek: " << janusz.age << "\n\n";
-	cout << janusz.showAllData();
+	
+	janusz.showAllData();
 
 	return 0;
 }
