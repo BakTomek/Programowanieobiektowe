@@ -23,7 +23,7 @@ string School::s_school="CDV";
 string School::s_jobPosition="Student";
 
 void School::showData(){
-	cout << "Imiê i nazwisko: " << name << " " << surname;
+	cout << "ImiÃª i nazwisko: " << name << " " << surname;
 }
 
 void School::setNameSurname(string pName, string pSurname){
@@ -45,10 +45,10 @@ int main(){
 	cout << School::s_jobPosition << endl;
 	
 	kowal.setNameSurname("Jan", "Kowal");
-	kowal.showData(); //9:00!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	kowal.showData();
 	cout << endl;
 	
-	School::s_jobPosition = "Wyk³adowca";
+	School::s_jobPosition = "WykÂ³adowca";
 	cout << School::s_jobPosition << endl;
 	kowal.s_jobPosition = "Dziekan";
 	cout << kowal.s_jobPosition << endl;
