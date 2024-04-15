@@ -21,7 +21,7 @@ jobs:
       with:
         dotnet-version: 8.0.x
     - name: Restore dependencies
-      run: dotnet ConsoleApp4.sln
+      run: dotnet 'C:\Users\student\Desktop\ConsoleApp4\ConsoleApp4.sln'
     - name: Build
       run: dotnet build --no-restore
     - name: Test
